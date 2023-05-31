@@ -1,0 +1,15 @@
+node_modules/
+config/
+*.eslintrc.json
+*.eslintignore
+*.prettierrc
+*.prettierignore
+*.env
+shortcuts-sunny-helper.txt
+code/
+public/
+security/
+views/
+public/images/.DS_Store
+data/
+temp/

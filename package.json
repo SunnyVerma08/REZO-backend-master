@@ -1,0 +1,45 @@
+{
+	"name": "rezo",
+	"version": "1.0.0",
+	"description": "rezo backend",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"devDependencies": {
+		"concurrently": "^6.4.0",
+		"eslint": "^8.4.0",
+		"eslint-config-airbnb": "^19.0.2",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.27.1",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"morgan": "^1.10.0",
+		"prettier": "^2.5.0"
+	},
+	"dependencies": {
+		"axios": "^0.24.0",
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-mongo-sanitize": "^2.1.0",
+		"express-rate-limit": "^5.5.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.14",
+		"validator": "^13.7.0"
+	},
+	"engines": {
+		"node": "16.x"
+	},
+	"author": "REZO",
+	"license": "ISC"
+}
